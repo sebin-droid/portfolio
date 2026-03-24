@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sebin George | Portfolio</title>
+    <meta name="description" content="Minimalist monochrome portfolio of Sebin George.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="monochrome-theme">
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <p>S.G</p>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="header-left">
+            <div class="hero-image-group">
+                <div class="profile-pic large">
+                    <img src="IMG_8921 (2).JPG" alt="Sebin George">
+                </div>
+                <div class="name-group">
+                    <h1 class="name">Sebin George</h1>
+                    <p class="subtitle">Digital Artist & Visual Storyteller</p>
+                </div>
+            </div>
+        </div>
+        <nav class="header-right">
+            <ul class="nav-tabs">
+                <li><a href="#about" class="active">About</a></li>
+                <li><a href="#images">Images</a></li>
+                <li><a href="#travel">Travel</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Section removed as it's now in the header panel -->
+
+        <section id="about" class="about-mid section">
+            <div class="container full-width">
+                <div class="about-creative-grid">
+                    <div class="about-title-block">
+                        <h2 class="vertical-title">INTRODUCTION</h2>
+                    </div>
+                    <div class="about-text-block glass">
+                        <p class="lead">Capturing moments through a minimalist lens. Exploring the intersection of
+                            light, shadow, and narrative.</p>
+                        <p>I am Sebin George, a visual storyteller focused on photography, videography, and the beauty
+                            of global exploration. My work is defined by a commitment to simplicity and the raw emotion
+                            of the human experience.</p>
+                    </div>
+                    <div class="about-accent-block">
+                        <span class="index-num">01 / S.G.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="images" class="gallery-section section">
+            <div class="container">
+                <h2 class="section-label">Selected Works / 02</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item"><img src="IMG_3704.JPG" alt="Photography 1"></div>
+                    <div class="gallery-item"><img src="IMG_3706.JPG" alt="Photography 2"></div>
+                    <div class="gallery-item"><img src="IMG_8743.JPG" alt="Photography 3"></div>
+                    <div class="gallery-item"><img src="IMG_8907.JPG" alt="Photography 4"></div>
+                    <div class="gallery-item"><img src="IMG_8098.JPG" alt="Photography 5"></div>
+                    <div class="gallery-item"><img src="IMG_4029 (2).JPG" alt="Photography 6"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="travel" class="travel-section section">
+            <div class="container">
+                <h2 class="section-label">Expeditions / 02</h2>
+                <div class="travel-video-grid">
+                    <div class="travel-video-card glass">
+                        <div class="travel-video-container">
+                            <video autoplay muted loop playsinline>
+                                <source src="travel1.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="travel-info">
+                            <h3>Kyoto, Japan</h3>
+                            <p>Zen harmony and light.</p>
+                        </div>
+                    </div>
+                    <div class="travel-video-card glass">
+                        <div class="travel-video-container">
+                            <video autoplay muted loop playsinline>
+                                <source src="travel2.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="travel-info">
+                            <h3>Swiss Alps</h3>
+                            <p>Eternal peaks.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section">
+            <div class="container small">
+                <h2 class="section-label">Connect / 03</h2>
+                <form id="contact-form" class="minimal-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <button type="submit" class="btn-minimal">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-wrap">
+                <p>&copy; 2026 Sebin George</p>
+                <div class="socials">
+                    <a href="#">IG</a>
+                    <a href="#">TW</a>
+                    <a href="#">LI</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
